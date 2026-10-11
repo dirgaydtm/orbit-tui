@@ -14,17 +14,6 @@ Orbit is a fast, highly-aesthetic terminal OS and developer dashboard written in
 
 <br />
 
-<p align="center">
-  <a href="https://star-history.com/#ziuus/orbit-tui&Date">
-   <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ziuus/orbit-tui&type=Date&theme=dark" />
-     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ziuus/orbit-tui&type=Date" />
-     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ziuus/orbit-tui&type=Date" width="800" />
-   </picture>
-  </a>
-</p>
-
-<br />
 
 <a href="https://orbit-tui.vercel.app">
   <img src="https://raw.githubusercontent.com/ziuus/orbit-tui/main/docs/orbit-demo.gif" alt="Orbit Live Demo" width="900" style="border-radius: 8px;" />
