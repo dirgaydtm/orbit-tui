@@ -1,0 +1,39 @@
+name: Bug Report
+description: Create a report to help us improve Orbit
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting a bug! Please ensure you test with the latest release (`npm update -g @ziuus/orbit` or `cargo install --git https://github.com/ziuus/orbit-tui`).
+  - type: input
+    id: version
+    attributes:
+      label: Orbit Version
+      description: Run `orbit -v` and paste the output.
+      placeholder: "e.g. orbit 0.11.15"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating System & Terminal
+      placeholder: "e.g. Arch Linux (Hyprland + Kitty) or macOS Sequoia (Ghostty)"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+      description: A clear and concise description of what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Open Orbit
+        2. Press '3' to switch to Aesthetic mode
+        3. See error
+    validations:
+      required: false

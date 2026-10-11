@@ -1,0 +1,28 @@
+name: Feature Request / Widget Idea
+description: Suggest an idea or new widget for Orbit
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Have an idea for Orbit or a new WASM widget? Let's discuss it!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem?
+      description: A clear description of what the problem is.
+      placeholder: "I'm always frustrated when..."
+    validations:
+      required: false
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the feature or widget you would like
+      description: What should it look like or do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Describe alternatives you have considered
+    validations:
+      required: false
