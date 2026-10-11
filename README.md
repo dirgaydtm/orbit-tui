@@ -156,6 +156,8 @@ cargo test
 
 Read **[CONTRIBUTING.md](CONTRIBUTING.md)** first to understand our sampler-thread rule (*never do I/O inside a `render()`*) and our UI degradation contract.
 
+Looking for something to work on? Check out our **[good first issues](https://github.com/ziuus/orbit-tui/issues?q=is%3Aissue+is%3Aopen+label%3A"good+first+issue")**.
+
 ## 📄 License
 
 [MIT](LICENSE) — Do what you like, keep the notice.
