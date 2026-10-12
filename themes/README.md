@@ -3,6 +3,7 @@
 A bunch of extra themes you can drop into Orbit. No rebuild, just copy and go.
 
 ```sh
+mkdir -p ~/.config/orbit/themes
 cp themes/night-owl.toml ~/.config/orbit/themes/
 # or symlink it so edits show up next launch
 orbit link themes/night-owl.toml
